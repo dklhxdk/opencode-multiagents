@@ -52,7 +52,6 @@ export const DEFAULT_MODELS: Record<AgentName, string | undefined> = {
 
 // Polling configuration
 export const POLL_INTERVAL_MS = 500;
-export const POLL_INTERVAL_BACKGROUND_MS = 2000;
 
 // Timeouts
 export const MAX_POLL_TIME_MS = 5 * 60 * 1000; // 5 minutes
