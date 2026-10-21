@@ -11,10 +11,6 @@ export { createLoopCommandHook } from './loop-command';
 export {
   createOrchestratorWakeScheduler,
   formatStoppedJobDelta,
-  ORCHESTRATOR_CHILDREN_WAKE_TEXT,
-  ORCHESTRATOR_STOPPED_JOB_WAKE_TEXT,
-  ORCHESTRATOR_WAKE_TEXT,
-  ORCHESTRATOR_WAKE_UNCHANGED_CAP,
   stoppedJobRecoveryReason,
 } from './orchestrator-wake';
 export { createPhaseReminderHook } from './phase-reminder';

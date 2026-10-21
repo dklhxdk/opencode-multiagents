@@ -6,7 +6,7 @@ export * from './background-job-store';
 export * from './background-job-supervisor';
 export * from './background-task-concurrency';
 export * from './internal-initiator';
-export { initLogger, log } from './logger';
+export { log } from './logger';
 export * from './polling';
 export * from './redact';
 export * from './session';

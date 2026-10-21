@@ -80,10 +80,6 @@ export function isApplyPatchVerificationError(error: unknown): boolean {
   return isApplyPatchError(error) && error.kind === 'verification';
 }
 
-export function isApplyPatchInternalError(error: unknown): boolean {
-  return isApplyPatchError(error) && error.kind === 'internal';
-}
-
 export function getApplyPatchErrorDetails(error: unknown):
   | {
       kind: ApplyPatchErrorKind;
